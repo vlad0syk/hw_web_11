@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+
+.left-column {
+    background-color: #e9ecef;
+    padding: 15px;
+}
+
+.main-column {
+    background-color: white;
+    padding: 15px;
+}
+
+.right-column {
+    background-color: #e9ecef;
+    padding: 15px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-image {
+    width: 100%;
+    display: none;
+}
+
+.slider-image.active {
+    display: block;
+}
+
+.btn {
+    margin: 5px;
+}
